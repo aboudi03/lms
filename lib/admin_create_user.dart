@@ -1,4 +1,3 @@
-// admincreateuser.dart
 import 'package:flutter/material.dart';
 
 class AdminCreateUser extends StatefulWidget {
@@ -142,15 +141,15 @@ class _AdminCreateUserState extends State<AdminCreateUser> {
                       child: Text("License 3"),
                     ),
                   ],
-                  decoration: const InputDecoration(
-                    labelText: 'Select License',
-                    border: OutlineInputBorder(),
-                  ),
                   onChanged: (value) {
                     setState(() {
                       _selectedLicense = value;
                     });
                   },
+                  decoration: const InputDecoration(
+                    labelText: 'Select License',
+                    border: OutlineInputBorder(),
+                  ),
                   validator: (value) {
                     if (value == null) {
                       return 'Please select a license';

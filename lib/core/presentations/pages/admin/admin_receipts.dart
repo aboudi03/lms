@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'invoice_details.dart';
+import '../invoice_details.dart';
 
 class AdminReceipts extends StatelessWidget {
   const AdminReceipts({super.key});

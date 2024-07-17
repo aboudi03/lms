@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'admin_create_user.dart';
-import 'admin_receipts.dart';
+import '../utils/admin_create_user.dart';
+import '../utils/admin_receipts.dart';
 
 class AdminPanel extends StatelessWidget {
   const AdminPanel({super.key});

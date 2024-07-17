@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'receipt_widget.dart';
+import '../widgets/receipt_widget.dart';
 
 class ReceiptPage extends StatelessWidget {
   @override

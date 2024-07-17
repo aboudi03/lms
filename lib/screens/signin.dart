@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'forgot_password_dialog.dart';
+import '../utils/forgot_password_dialog.dart';
 import 'admin_panel.dart';
-import 'user_receipt.dart';
+import '../utils/user_receipt.dart';
 
 class SignIn extends StatefulWidget {
   const SignIn({Key? key}) : super(key: key);
